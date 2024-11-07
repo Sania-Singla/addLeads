@@ -36,8 +36,9 @@ A modern web browser that supports HTML5, CSS3, and JavaScript.
 Try the live project at [addleads.netlify.app](https://addleads.netlify.app)
 
 ### Folder Structure
-```plaintext
-html-forms-project/
+```
+WebProject/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS styling for the form and layout
+├── icons.js            # For all the <svg /> icons used in the project 
 └── script.js           # JavaScript for validation, event handling, and local storage
