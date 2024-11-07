@@ -4,7 +4,7 @@ This project demonstrates the use of various HTML form inputs, event handlers, e
 
 ## Features
 
-### 1. Built with Pure Vanilla JavaScript
+### 1. Built from Scratch
 This project is entirely built with **pure HTML, CSS, and vanilla JavaScript**. No third-party libraries or frameworks were used, ensuring a lightweight, efficient, and highly customizable codebase. All form functionality, including validation, event handling, and data storage, is implemented from scratch.
 
 ### 2. Full Range of Form Elements
