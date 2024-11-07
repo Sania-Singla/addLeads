@@ -43,5 +43,5 @@ Try the live project at [addleads.netlify.app](https://addleads.netlify.app)
 WebProject/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS styling for the form and layout
-├── icons.js            # For encapsulating all the <svg /> icons used in the project 
+├── icons.js            # For encapsulating all the <svg /> icons used 
 └── script.js           # JavaScript for validation, event handling, and local storage
