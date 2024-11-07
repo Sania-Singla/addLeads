@@ -22,7 +22,7 @@ Each form input has associated validation logic and error handling. When an erro
 
 ### 4. Event Handlers
 This project uses JavaScript to add interactivity, making the form responsive to user actions. Examples of event handling include:
-- **Input Change** - Updates form values in real time.
+- **Input Change** - Updates form values in real time (for country input only yet).
 - **Focus and Blur** - Highlights active fields and validates upon leaving a field.
 - **Form Submission** - Prevents submission if any fields are invalid and shows error messages.
 - **Reset Button** - Clears all fields and stored data, restoring the form to its initial state.
