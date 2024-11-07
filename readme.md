@@ -4,7 +4,10 @@ This project demonstrates the use of various HTML form inputs, event handlers, e
 
 ## Features
 
-### 1. Full Range of Form Elements
+### 1. Built with Pure Vanilla JavaScript
+This project is entirely built with **pure HTML, CSS, and vanilla JavaScript**. No third-party libraries or frameworks were used, ensuring a lightweight, efficient, and highly customizable codebase. All form functionality, including validation, event handling, and data storage, is implemented from scratch.
+
+### 2. Full Range of Form Elements
 The form includes most frequently used HTML input elements, showcasing:
 - **Text Input** - General fields for names, addresses, etc.
 - **Email** - Validates correct email format.
@@ -14,17 +17,17 @@ The form includes most frequently used HTML input elements, showcasing:
 - **Textarea** - For larger text inputs like comments.
 - **Dropdown (Select)** - Predefined options for quick selection.
 
-### 2. Real-Time Form Validation and Error Handling
+### 3. Real-Time Form Validation and Error Handling
 Each form input has associated validation logic and error handling. When an error is detected (e.g., invalid email format or missing required fields), a clear, user-friendly message is shown to help the user correct the issue. 
 
-### 3. Event Handlers
+### 4. Event Handlers
 This project uses JavaScript to add interactivity, making the form responsive to user actions. Examples of event handling include:
 - **Input Change** - Updates form values in real time.
 - **Focus and Blur** - Highlights active fields and validates upon leaving a field.
 - **Form Submission** - Prevents submission if any fields are invalid and shows error messages.
 - **Reset Button** - Clears all fields and stored data, restoring the form to its initial state.
 
-### 4. Data Persistence with Local Storage
+### 5. Data Persistence with Local Storage
 User data is stored in the browser’s Local Storage, ensuring that form data persists even if the user navigates away or refreshes the page. When the user revisits the page, the form fields are automatically populated with the saved data, providing a seamless experience.
 
 ## Getting Started
@@ -40,5 +43,5 @@ Try the live project at [addleads.netlify.app](https://addleads.netlify.app)
 WebProject/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS styling for the form and layout
-├── icons.js            # For all the <svg /> icons used in the project 
+├── icons.js            # For encapsulating all the <svg /> icons used in the project 
 └── script.js           # JavaScript for validation, event handling, and local storage
