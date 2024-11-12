@@ -203,7 +203,7 @@ button {
 
 #leads-div {
     width: 100%;
-    padding: 65px 0;
+    padding: 65px 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -305,4 +305,32 @@ button {
     background-color: #942727;
     border: 1px solid black;
     font-weight: 500;
+}
+
+/* are written at bottom to overwrite */
+@media (max-width: 768px) {
+    #main-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+    #radio-input-div{
+        gap: 5px;
+        padding: 10px;
+    }
+    #form-div{
+        padding: 5px;
+    }
+    .two-fields-div{
+        gap: 10px;
+    }
+    form{
+        padding:15px 10px;
+    }
+    hr{
+        margin-top: 30px;
+    }
+    #leads-div{
+        padding:0;
+        padding-top: 30px;
+    }
 }
